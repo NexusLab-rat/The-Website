@@ -23,6 +23,7 @@ body {
 h1, h2, p {
     font-family: 'Roboto', sans-serif;
     color: mintcream; /* Mint green fill color */
+    word-wrap: break-word;
 }
 
 h1 {

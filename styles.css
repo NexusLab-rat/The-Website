@@ -18,11 +18,12 @@ body {
 
 .container {
     text-align: center;
+    color: rgb(138, 231, 184);
+    -webkit-text-stroke: 2px black;
 }
 
 h1, h2, p {
     font-family: 'Roboto', sans-serif;
-    color: mintcream; /* Mint green fill color */
     word-wrap: break-word;
 }
 

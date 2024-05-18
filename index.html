@@ -1,14 +1,41 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Skittles</title>
-    <link rel="stylesheet" href="skittles.css">
-</head>
-<body>
-    <h1> Testing and tweakin'</h1>
-    <h2> kodas labai idomu</h2>
-    <p> wow cia tai bent</p>
-</body>
-</html>
+@font-face {
+    font-family: 'MyCustomFont';
+    src: url('fonts/MyCustomFont.woff2') format('woff2'),
+         url('fonts/MyCustomFont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: 'MyCustomFont', sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+
+.container {
+    text-align: center;
+}
+
+h1, p {
+    font-family: 'MyCustomFont', serif;
+    color: mintcream; /* Fill color */
+    -webkit-text-stroke: 1px black; /* Outline color and thickness */
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000; /* Fallback for non-webkit browsers */
+}
+
+h1 {
+    font-size: 2.5em;
+    margin: 0.5em 0;
+}
+
+p {
+    margin: 0.5em 0;
+    font-size: 1.2em;
+}

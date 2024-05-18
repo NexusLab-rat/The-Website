@@ -17,9 +17,7 @@ body {
 
 h1, p {
     font-family: 'Roboto', serif;
-    color: mintcream; /* Mint green fill color */
-    -webkit-text-stroke: 0.5px black; /* Black outline */
-    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000; /* Fallback for non-webkit browsers */
+    color: rgb(73, 197, 135); /* Mint green fill color */
 }
 
 h1 {
